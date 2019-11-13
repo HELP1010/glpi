@@ -65,7 +65,7 @@ Dim Setup, SetupArchitecture, SetupLocation, SetupOptions, SetupVersion
 ' SetupVersion
 '    Setup version with the pattern <major>.<minor>.<release>[-<package>]
 '
-SetupVersion = "2.3.19"
+SetupVersion = "2.5.1"
 
 ' SetupLocation
 '    Depending on your needs or your environment, you can use either a HTTP or
@@ -102,7 +102,7 @@ SetupArchitecture = "Auto"
 '    that require it; double quotes (") doesn't work with UNCs.
 '
 'SetupOptions = "/acceptlicense /server='http://192.168.1.1/glpi/plugins/fusioninventory/' /tag=YourTag /delaytime=60 /httpd-trust='127.0.0.1/32,192.168.1.0/24' /execmode=service /installtasks=full /runnow /S"
-SetupOptions = "/acceptlicense /runnow /server='http://glpi.yourcompany.com/glpi/plugins/fusioninventory/' /S"
+SetupOptions = "/acceptlicense /runnow /server='http://192.6.1.116/glpi/plugins/fusioninventory/'/S"
 
 ' Setup
 '    The installer file name. You should not have to modify this variable ever.
